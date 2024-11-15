@@ -10,3 +10,4 @@ spec:
       name: http
       port: {{ .Values.frontend.service.port }}
       targetPort: http
+      
